@@ -1,0 +1,25 @@
+body {
+  background: hsl(205, 15%, 50%);
+}
+svg {
+  background: white;
+  display: block;
+  margin: 100px auto;
+  box-shadow: 6px 6px 4px hsl(220, 5%, 25%);
+}
+#title {
+  font-size: 3em;
+  font-weight: 700;
+}
+.bar {
+  fill: hsl(200, 75%, 50%);
+}
+.bar:hover {
+  fill: hsl(200, 75%, 15%);
+}
+#tooltip {
+  text-align: center;
+  background-color: rgba(108, 131, 147, 0.8);
+  color: #000;
+  padding: 10px;
+}
